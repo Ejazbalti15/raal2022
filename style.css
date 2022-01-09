@@ -1,0 +1,78 @@
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: black
+        }
+
+        p {
+            color: red;
+            font-size: 40px;
+            padding: 40px;
+            border: 30px green;
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+            background: green;
+            color: palevioletred;
+            width: 40px;
+            padding: auto;
+        }
+
+        a :hover {
+            cursor: green;
+            color: hotpink;
+            background: rgb(213, 14, 231);
+            padding: 30px;
+
+        }
+
+        .left {
+
+            display: inline-block;
+            border: 4px red;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 12px auto;
+            border: 4px hotpink;
+        }
+
+        .right {
+            display: inline-block;
+            border: 4px blue;
+            position: absolute;
+            right: 34px;
+            bottom: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .navbar :hover {
+            background: yellow;
+            color: red;
+        }
+
+        .h {
+            font-size: 40px;
+            color: chartreuse
+        }
